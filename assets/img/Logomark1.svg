@@ -1,0 +1,33 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_355_393)">
+<rect width="48" height="48" fill="#0F0F0F"/>
+<rect width="48" height="48" fill="url(#paint0_linear_355_393)"/>
+<g filter="url(#filter0_d_355_393)">
+<path d="M33.1689 34.9355L31.4014 36.7031L25.2852 30.5869L25.2861 41.5L24.0352 41.501L22.7842 41.5V30.5879L16.6689 36.7031L14.9014 34.9355L24.0352 25.8018L33.1689 34.9355ZM22.2676 24.0352L13.1338 33.1689L11.3662 31.4014L17.4824 25.2852H6.50098V22.7852H17.4824L11.3662 16.6689L13.1338 14.9014L22.2676 24.0352ZM36.7002 16.6689L30.584 22.7852H41.498V25.2852H30.584L36.7002 31.4014L34.9326 33.1689L25.7988 24.0352L34.9326 14.9014L36.7002 16.6689ZM25.2852 17.4824L31.4014 11.3662L33.1689 13.1338L24.0352 22.2676L14.9014 13.1338L16.6689 11.3662L22.7852 17.4824V6.5H25.2852V17.4824Z" fill="url(#paint1_linear_355_393)"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_355_393" x="3.16667" y="3.16667" width="41.6667" height="46.6667" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="1.66667" operator="erode" in="SourceAlpha" result="effect1_dropShadow_355_393"/>
+<feOffset dy="2.5"/>
+<feGaussianBlur stdDeviation="2.5"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.141176 0 0 0 0 0.141176 0 0 0 0 0.141176 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_355_393"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_355_393" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_355_393" x1="24" y1="5.96047e-07" x2="26" y2="48" gradientUnits="userSpaceOnUse">
+<stop stop-color="white" stop-opacity="0"/>
+<stop offset="1" stop-color="white" stop-opacity="0.12"/>
+</linearGradient>
+<linearGradient id="paint1_linear_355_393" x1="23.9995" y1="6.5" x2="23.9995" y2="41.501" gradientUnits="userSpaceOnUse">
+<stop stop-color="white" stop-opacity="0.8"/>
+<stop offset="1" stop-color="white" stop-opacity="0.5"/>
+</linearGradient>
+<clipPath id="clip0_355_393">
+<rect width="48" height="48" fill="white"/>
+</clipPath>
+</defs>
+</svg>
