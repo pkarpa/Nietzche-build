@@ -513,6 +513,73 @@ header #header-started {
   margin-bottom: 0;
 }
 
+.launch-career > .container {
+  display: flex;
+  gap: 16px;
+}
+.launch-career-info {
+  position: relative;
+  background-color: #EE6731;
+  padding: 80px 32px;
+  max-width: 766px;
+  overflow-x: hidden;
+}
+.launch-career-info::after {
+  content: "";
+  position: absolute;
+  top: -5px;
+  right: -105px;
+  width: 388px;
+  height: 239px;
+  background: url("../assets/img/launch-career-bg-line.svg");
+}
+.launch-career-title {
+  position: relative;
+  color: #ffffff;
+  max-width: 566px;
+  z-index: 1;
+}
+.launch-career-description {
+  position: relative;
+  color: #ffffff;
+  max-width: 566px;
+  z-index: 1;
+}
+.launch-career-steps__number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  color: #fff;
+  font-size: 16px;
+  max-width: 48px;
+  width: 100%;
+  height: 48px;
+  margin-right: 32px;
+}
+.launch-career-steps__item {
+  display: flex;
+  margin-bottom: 28px;
+}
+.launch-career-steps__title {
+  color: #fff;
+  margin-bottom: 8px;
+}
+.launch-career-steps__description {
+  color: #fff;
+  margin-bottom: 0;
+}
+.launch-career-reviews {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  background: url("../assets/img/launch-career-reviews-bg.png") no-repeat center center/cover;
+  max-width: 546px;
+  width: 100%;
+  padding: 44px;
+}
+
 footer {
   background-color: #0F0F0F;
   display: flex;
