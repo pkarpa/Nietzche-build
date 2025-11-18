@@ -565,7 +565,7 @@ header #header-started {
   right: -105px;
   width: 388px;
   height: 239px;
-  background: url("../assets/img/launch-career-bg-line.svg");
+  background: url("./assets/img/launch-career-bg-line.svg");
 }
 .launch-career-title {
   position: relative;
