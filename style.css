@@ -632,6 +632,7 @@ header #header-started {
   display: flex;
   justify-content: space-between;
   margin-bottom: 72px;
+  gap: 12px;
 }
 .user-say-navigation {
   display: flex;
@@ -770,6 +771,9 @@ footer .footer-terms {
   }
 }
 @media screen and (max-width: 1024px) {
+  .banner {
+    margin-bottom: 40px;
+  }
   .mobile-container {
     visibility: hidden;
     display: flex;
@@ -788,7 +792,7 @@ footer .footer-terms {
   }
   .mobile-container.show {
     visibility: visible;
-    top: 81px;
+    top: 80px;
     transform: translate(0, 0);
   }
   #header-started {
@@ -808,6 +812,12 @@ footer .footer-terms {
   .top-platform-opportunities {
     gap: 16px;
   }
+  .find-job {
+    padding: 40px 0;
+  }
+  .find-job-top {
+    margin-bottom: 48px;
+  }
   .find-job .find-job-vacancies {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -825,6 +835,24 @@ footer .footer-terms {
   }
   .launch-career-reviews {
     padding: 32px;
+  }
+  .user-say {
+    padding: 40px 0;
+  }
+  .user-say-top {
+    margin-bottom: 48px;
+  }
+  .user-say .comment-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .user-say .comment-text {
+    font-size: min(3vw, 24px);
+    margin-bottom: 0;
+  }
+  .user-say .comment-author {
+    margin-top: auto;
   }
   footer .footer-firstrow {
     display: grid;
@@ -858,6 +886,23 @@ footer .footer-terms {
   .launch-career-reviews {
     padding: 24px;
   }
+  .user-say .comment {
+    flex-direction: column;
+    align-items: center;
+  }
+  .user-say .comment-quote {
+    display: none;
+  }
+  .user-say .comment-text {
+    margin-bottom: 10px;
+    font-size: min(5vw, 24px);
+  }
+  .user-say .comment-author__name {
+    font-size: 16px;
+  }
+  .user-say .comment-author__position {
+    font-size: 14px;
+  }
 }
 @media screen and (max-width: 575px) {
   .banner > .container {
@@ -869,6 +914,10 @@ footer .footer-terms {
   .launch-career-info::after {
     top: -75px;
     right: -120px;
+  }
+  .user-say .comment-img {
+    width: 220px;
+    height: 244px;
   }
   footer {
     padding-top: 44px;
